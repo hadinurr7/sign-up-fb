@@ -1,0 +1,201 @@
+body {
+    background-color: #F5FDFF;
+  }
+ 
+  .fb__title {
+    font-family: Segoe UI;
+    color: #1877F2;
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+  } 
+  .form {
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: auto;
+    width: 25%;
+    border: 2px solid #f1f1f1;
+    box-shadow: 0 0 15px 0px #f1f1f1 ;
+    border-radius: 10px;
+  } 
+
+  .form__head {
+    background-color: #fff;
+    height: 80px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .main__head {
+    box-sizing: border-box;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .main__head-h2 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 0;
+  }
+  
+  .main__head-tag {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 16px;
+    line-height: 10px;
+    padding: 0;
+  }
+
+  .main__form {
+    background-color: #fff;
+    box-sizing: border-box;
+    position: relative;
+    padding: 5%;
+  }
+  
+    /**--Text type input--**/   
+  .name__input input {
+    width: 44%;
+    border: 2px solid #d8d8d8;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 2%;
+    margin-bottom: 2%;
+    float: left;
+  }
+    
+  .mobile__number input {
+    width: 95%;
+    border: 2px solid #d8d8d8;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 2%;
+    margin-bottom: 2%;
+  } 
+
+  .email__address input{
+    width: 95%;
+    border: 2px solid #d8d8d8;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 2%;
+    margin-bottom: 2%;
+  }
+
+  .password input {
+    width: 95%;
+    border: 2px solid #d8d8d8;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 2%;
+    margin-bottom: 2%;
+  }
+
+  .date {
+    font-family: segoe ui;
+    font-size: 14px;
+    letter-spacing: 1;
+    display: block;
+  }
+  
+  .date__borth-option {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1%;
+  }
+  
+  .date__borth-option-date {
+    width: 32%;
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 1.5%;
+  }
+
+  .date__borth-option-month {
+    width: 32%;
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 1.5%;
+  }
+
+  .date__borth-option-year {
+    width: 32%;
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 1.5%;
+  }
+  
+  .gender { 
+    margin-bottom: 5px;
+
+    font-family: segoe ui;
+    font-size: 14px;
+    letter-spacing: 1;
+    display: block;
+  }
+  
+  .gender {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .gender__radio{
+    border: 2px solid;
+    position: relative;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: calc(33%);
+    font-size: 15px;
+    font-weight: 400;
+    padding: 1.5%;
+  }
+  
+  .sex label input[type="radio"] {
+    display: inline-block;
+    position: absolute;
+    width: calc(100%)
+  }
+  
+  .terms {
+    font-family: segoe ui;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .SignUp {
+    text-align: center;
+  }
+  
+  .signUp__btn {
+    background-color: #119F16;
+    font-family: Segoe UI;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    width: 200px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
